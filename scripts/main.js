@@ -22,7 +22,7 @@ if (!localStorage.getItem("nombre")) {
   estableceNombreUsuario();
 } else {
   let nombreAlmacenado = localStorage.getItem("nombre");
-  miTitulo.textContent = "Mozilla es genial, " + nombreAlmacenado;
+  miTitulo.textContent = "Hola amorchi, " + nombreAlmacenado;
 }
 miBoton.onclick = function () {
   estableceNombreUsuario();
